@@ -3,4 +3,4 @@ This project utilizes the Kaggle Bluebook for Bulldozers dataset to predict the 
 
 All my code is contained in the main notebook "LGBM_model.ipynb". This file has thorough comments on all the steps followed from data cleaning to model training and evaluation. 
 
-All the other files are data files from Kaggle. 
+Files inside the "data" directory are data files, mostly from from Kaggle. From these, "Train.csv" was used for training and validating the dataset, while "Data Dcitionary.xlsx" was used for understanding the dataset, and "data_types.csv" was generated to understand the data types of different values (for cleaning the dataset, when deciding what to remove, what to impute etc.). 
