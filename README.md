@@ -3,4 +3,4 @@ This project utilizes the Kaggle Bluebook for Bulldozers dataset to predict the 
 
 All my code is contained in the main notebook "LGBM_model.ipynb". This file has thorough comments on all the steps followed from data cleaning to model training and evaluation that you can follow along. 
 
-Files inside the "data" directory are data files, mostly from from Kaggle. From these, "Train.csv" was used for training and validating the dataset, while "Data Dcitionary.xlsx" was used for understanding the dataset, and "data_types.csv" was generated to understand the data types of different values (for cleaning the dataset, when deciding what to remove, what to impute etc.). 
+The Kaggle dataset was not uploaded to this git repo because of its size. It can be downloaded [here](https://www.kaggle.com/competitions/bluebook-for-bulldozers/overview). The downloaded files should be extracted and placed in the same directory as the LGBM_model.ipynb file. Technically, only the "Train.csv" file is needed to run the notebook, as this was the file used for training and validating the mdoel, while other files such as "Data Dictionary.xlsx" were used for understanding the dataset. 
